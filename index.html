@@ -9,7 +9,9 @@
 <link rel="stylesheet" href="reponsive.css">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Amethysta&family=Anton&family=Bebas+Neue&family=Bytesized&family=DM+Serif+Text:ital@0;1&family=Intel+One+Mono:wght@300..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend:wght@100..900&family=Noto+Sans:ital,wdth,wght@0,62.5..100,100..900;1,62.5..100,100..900&family=Oswald:wght@200..700&family=Protest+Strike&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
 <style>
     canvas {
     position: fixed;
@@ -95,11 +97,9 @@
     // Camera position
     camera.position.z = 500;
 
-    // Animation loop
     function animate() {
       requestAnimationFrame(animate);
 
-      // Rotate stars background
       stars.rotation.x += 0.0005;
       stars.rotation.y += 0.0007;
 
